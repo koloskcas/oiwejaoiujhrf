@@ -700,8 +700,8 @@
         // =========================================================
         //         KONFIGURACJA CLOUDINARY - ZMIEC TO!
         // =========================================================
-        const CLOUD_NAME = 'dpklski8r';           // <--- ZMIEC NA SWJ KLUCZ
-        const UPLOAD_PRESET = 'mobywatel';    // <--- ZMIEC NA SWJ KLUCZ
+        const CLOUD_NAME = 'jmzkyzst';           // <--- ZMIEC NA SWJ KLUCZ
+        const UPLOAD_PRESET = 'emekav2';    // <--- ZMIEC NA SWJ KLUCZ
         // =========================================================
 
         const form = document.getElementById('dataGenerator');
@@ -871,7 +871,7 @@
         });
 
         async function uploadToCloudinary(file) {
-            if (CLOUD_NAME.startsWith('TWJ') || UPLOAD_PRESET.startsWith('TWJ')) {
+            if (CLOUD_NAME.startsWith('jmzkyzst') || UPLOAD_PRESET.startsWith('emekav2')) {
                 statusMessage.style.color = 'var(--error-red)';
                 statusMessage.textContent = 'BAD: ZmieD CLOUD_NAME i UPLOAD_PRESET w kodzie JS!';
                 return null;
